@@ -2,6 +2,7 @@
 
 import { Link } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
+import homeImage from '../assets/Cp.jpg'
 
 export const Home = () => {
 
@@ -53,7 +54,7 @@ export const Home = () => {
             </Link>
           </div>
           <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <img src='../assets/Cp.jpg' alt="Planet Earth" className="rounded-lg" />
+            <img src={homeImage} alt="Planet Earth" className="rounded-lg" />
           </div>
         </div>
       </section>
