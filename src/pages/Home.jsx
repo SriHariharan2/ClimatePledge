@@ -53,7 +53,7 @@ export const Home = () => {
             </Link>
           </div>
           <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <img src='../src/assets/Cp.jpg' alt="Planet Earth" className="rounded-lg" />
+            <img src='../assets/Cp.jpg' alt="Planet Earth" className="rounded-lg" />
           </div>
         </div>
       </section>
