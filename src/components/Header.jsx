@@ -41,14 +41,7 @@ export const Header = () => {
                   Pledge Wall
                 </NavLink>
               </li>
-              <li>
-                <NavLink 
-                  to="/settings" 
-                  className={({ isActive }) => isActive ? activeClass : inactiveClass}
-                >
-                  Settings
-                </NavLink>
-              </li>
+              
             </ul>
           </div>
         </div>
